@@ -54,7 +54,7 @@ final_data_set = cbind(new_label,new_subject,new_set)
 
 #replace column names to feature names
 colnames(final_data_set) = c("activity","subject",feature[final_variables_index,2])
-head(final_data_set)
+#head(final_data_set)
 
 #create a second data set which is the result data set required in step 5
 library(plyr)
